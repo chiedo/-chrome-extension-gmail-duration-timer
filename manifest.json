@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gmail duration timer",
+  "version": "0.1.0",
+  "description": "Prevent extended time wasted in emails",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://mail.google.com/*"]
+  }]
+
+}
